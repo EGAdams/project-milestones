@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Scoreboard Project Estimate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 0;
+        }
+        header {
+            background-color: #4784d8;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .total {
+            font-weight: bold;
+            background-color: #f5f8c7;
+            color: rgb(0, 0, 0);
+        }
+        
+        .total_row {
+            font-weight: bold;
+            background-color: #557fba;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tennis Scoreboard Project Estimate</h1>
+    </header>
+    <main>
+        <h2>Project Breakdown</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Description</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Scoreboard Object</td>
+                    <td>Create a Scoreboard object that updates the HUB75 LED panel to reflect score, serve, win, and lose.</td>
+                    <td>$150.00</td>
+                </tr>
+                <tr>
+                    <td>Modify Existing Project</td>
+                    <td>Adapt the existing C++ project to output to the HUB75 LED panel instead of plain old LEDs.</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr>
+                    <td>GameScore Object</td>
+                    <td>Develop a GameScore object that keeps track of the number of games each player wins and relays 
+                        that information to the Scoreboard object.  This information will be displayed in the "little numbers" 
+                        portion of the HUB75 panel.
+                    </td>
+                    <td>$100.00</td>
+                </tr>
+                <tr>
+                    <td>Verification, Testing, and Debugging</td>
+                    <td>Verify, test, and debug the final solution to ensure it is functioning correctly and efficiently.</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr class="total_row">
+                    <td>Total</td>
+                    <td></td>
+                    <td class="total">$500.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
